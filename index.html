@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Colorful Resume</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    .resume-section {
+      padding: 60px 0;
+    }
+    .resume-item {
+      margin-bottom: 30px;
+    }
+    .profile-image {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #17a2b8;
+    }
+    .primary-color {
+      color: #17a2b8;
+    }
+    .secondary-color {
+      color: #28a745;
+    }
+    .bg-primary {
+      background-color: #17a2b8;
+      color: #fff;
+    }
+    .bg-secondary {
+      background-color: #28a745;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="#">Ankit Rai</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#about">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- About Me Section -->
+<section id="about" class="resume-section bg-secondary text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="ankit.jpg" alt="Profile Image" class="profile-image">
+      </div>
+      <div class="col-lg-8">
+        <h2 class="text-uppercase">About Me</h2>
+        <p class="lead">Enthusiastic coder with a passion for solving complex problems through programming. Proficient in multiple languages, including Java, Python, and JavaScript. Committed to continuous learning, I embrace new technologies and enjoy collaborating with diverse teams. Adept at full-stack development and dedicated to writing clean, efficient code. Open source contributor and advocate for innovation in technology.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="resume-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2 class="text-uppercase text-center primary-color">Experience</h2>
+        <!-- Add your experience items here -->
+        <div class="resume-item">
+          <h3 class="primary-color">Fresher</h3>
+       <!--    <p class="font-weight-bold secondary-color">Company Name</p>
+          <p class="text-muted">Date Range</p> -->
+          <p>Your responsibilities and achievements in this role.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Education Section -->
+<section id="education" class="resume-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2 class="text-uppercase text-center primary-color">Education</h2>
+        <!-- Add your education items here -->
+        <div class="resume-item">
+          <h3 class="primary-color">Currently pursuing a degree in B.A. Programme </h3>
+          <p class="font-weight-bold secondary-color">Delhi University</p>
+          <p class="text-muted">2024</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="resume-section bg-secondary text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2 class="text-uppercase text-center primary-color">Skills</h2>
+        <!-- Add your skills here -->
+        <ul class="list-unstyled">
+          <li>Coding : html , css , javascript , jquery , php , bootstrap , mysql , ajax </li>
+          <li>IT tools and Photoshop</li>
+          <li>Mechanical (Automotive)</li>
+          <!-- Add more skills as needed -->
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="resume-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2 class="text-uppercase text-center primary-color">Contact</h2>
+        <!-- Add your contact information and form here -->
+        <p class="font-weight-bold secondary-color">Email: ankitrai36553@gmail.com</p>
+        <p class="font-weight-bold secondary-color">Phone: 8700098725</p>
+        <form>
+          <div class="form-group">
+            <label for="message" class="secondary-color">Message:</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Type your message here"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bootstrap and jQuery Scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
